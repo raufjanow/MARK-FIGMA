@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background: rgb(0, 0, 57) ;
+    background: rgb(45, 45, 55) ;
 }
 .header{
     width: 1302px;
@@ -109,4 +109,38 @@
 }
 .body_slider_second .pluggin_images{
     margin-top: 50px;
+}
+/* Grid is here */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-header h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    background-color: #222;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 48%;
 }
