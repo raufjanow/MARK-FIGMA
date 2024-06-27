@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgb(0, 0, 57) ;
+}
+.header{
+    width: 1302px;
+    height: 51px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 157.89px;
+    height: 40px;
+    top: 6px;
+    gap: 0px;
+    opacity: 0px;
+}
+.header ul li{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    font-family: Stolzl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: white ;
+}
+.header button{
+    width: Fixed (188px)px;
+    height: Fixed (51px)px;
+    left: 1117px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px 0px 0px 0px;
+    border: 2px solid white;
+    color: white;
+}
+/* slider from here */
+.body_slider{
+    display: flex;
+    width: 1800px;
+    height: 540px;
+    top: 136px;
+    left: 312px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.body_slider .body_slider_half{
+    width: 856px;
+    height: 540px;
+    
+    background: url(images/rec30.png);
+    border: 5px solid yellow;
+
+} 
+.body_slider_half .btn_main{
+    display: relative;
+    width: 154px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 301px;
+    margin-left: 60px;
+    background-color: none;
+
+}
+.body_slider .slide_main{
+    
+    font-family: Gotham Pro;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    background-color: none;
+
+}
+.body_slider .slide_main{
+    margin-left: 60px;
+    background: none !important;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+.body_slider_second{
+    width: 416px;
+    height: 542px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.body_slider_second .pluggin_url a{
+    width: 57px;
+    border: 1px solid none;
+    padding: 12px 100px 7px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.body_slider_second .pluggin_images img{
+    padding: 10px;
+    justify-content: space-around;
+}
+.body_slider_second .pluggin_images{
+    margin-top: 50px;
+}

@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgb(48, 48, 59) ;
+}
+.header{
+    width: 1302px;
+    height: 51px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 157.89px;
+    height: 40px;
+    top: 6px;
+    gap: 0px;
+    opacity: 0px;
+}
+.header ul li{
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    font-family: Stolzl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: white ;
+}
+.header button{
+    width: Fixed (188px)px;
+    height: Fixed (51px)px;
+    left: 1117px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px 0px 0px 0px;
+    border: 2px solid white;
+    color: white;
+}
